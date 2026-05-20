@@ -42,6 +42,16 @@ docker pull yeremysilva/mi-spring-app:latest
 docker run -p 8080:8080 -e SPRING_PROFILES_ACTIVE=dev yeremysilva/mi-spring-app:latest
 ```
 
+## Evidencias
+
+### Historial de GitHub Actions
+
+![GitHub Actions Workflow](docs/github-actions-workflow.png)
+
+### Imagen publicada en Docker Hub
+
+![Docker Hub](docs/imagen-docker-hub.png)
+
 ## Tecnologías
 
 - Java 17
