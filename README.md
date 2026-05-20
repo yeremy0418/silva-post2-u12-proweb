@@ -38,8 +38,8 @@ Configurar en **Settings → Secrets and variables → Actions** del repositorio
 ## Imagen Docker
 
 ```bash
-docker pull yeremy0418/mi-spring-app:latest
-docker run -p 8080:8080 -e SPRING_PROFILES_ACTIVE=dev yeremy0418/mi-spring-app:latest
+docker pull yeremysilva/mi-spring-app:latest
+docker run -p 8080:8080 -e SPRING_PROFILES_ACTIVE=dev yeremysilva/mi-spring-app:latest
 ```
 
 ## Tecnologías
